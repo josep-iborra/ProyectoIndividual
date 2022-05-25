@@ -20,10 +20,10 @@ export default Button_Small;
 
 const styles = StyleSheet.create({
     button: {
-        backgroundColor: '#F6C602',
+        backgroundColor: '#F7BF00',
         borderColor: '#000000',
         borderWidth: 1,
-        borderRadius: 11,
+        borderRadius: 5,
         marginVertical: 10,
         padding: 0,
         elevation: 10,

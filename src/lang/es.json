@@ -1,0 +1,153 @@
+{
+  "translation": {
+
+      "Welcome_Screen_Title": " Una App para gestionar todos los documentos que necesitas para tu viaje.",
+      "Welcome_Screen_SubTitle": " na App para encontrarlos, una App para atraerlos a todos y atarlos en la oscuridad en la Tierra de Mordor donde se extienden las Sombras.",
+
+
+    "Text_Register":"Registrarse",
+    "Text_Login":"Inicio de sesión",
+    
+    "Privacy_Policy":"Políticas de privacidad",
+    "Text_PrivacyPolicy":[
+      "Recogida y tratamiento de datos personales",
+      "Los datos personales son aquellos que pueden utilizarse para identificar o contactar con una persona. 'TripDocs' puede solicitar datos personales a los usuarios al acceder a las aplicaciones de la empresa o de otras empresas afiliadas, así como la posibilidad de que entre estas empresas se compartan dichos datos para mejorar los productos y servicios ofrecidos. Si no se facilitan dichos datos personales, en muchos casos no podremos ofrecer los productos o servicios solicitados. Estos son algunos ejemplos de las categorías de datos personales que 'TripDocs' puede recopilar y los fines para los que puede tratar dichos datos. ",
+
+      "¿Qué datos personales pueden recogerse?",
+      "- Al crear una identificación, solicitar un crédito comercial, comprar un producto o descargar una actualización de software, se recopilan diferentes datos, como el nombre, la dirección postal, el número de teléfono, la dirección de correo electrónico o los datos de la tarjeta de crédito.",
+      "- Cuando usted comparte contenidos con familiares y amigos o invita a otras personas a participar en servicios o foros, podemos recopilar información sobre esas personas, como su nombre, dirección, dirección de correo electrónico y número de teléfono. Estos datos se utilizarán para cumplir con sus pedidos, para mostrarle el producto o servicio correspondiente o para combatir el fraude.",
+
+      "Finalidad del tratamiento de los datos personales",
+      "'TripDocs' podrá utilizar los datos personales recogidos para:",
+      "- Los datos personales recogidos nos permiten mantenerle informado sobre los últimos productos, las actualizaciones de software disponibles y los próximos eventos.",
+
+      "- Los datos personales también se utilizan para ayudar a desarrollar, mejorar, gestionar, proporcionar y perfeccionar productos, servicios, contenidos y publicidad, y para evitar pérdidas y fraudes.",
+
+      "- Los datos personales pueden utilizarse para verificar la identidad, ayudar a la identificación de los usuarios y decidir sobre los servicios adecuados.",
+
+      "- También utilizamos estos datos personales para fines internos, como auditorías, análisis de datos y encuestas, para mejorar los productos, los servicios y las comunicaciones con los clientes.",
+
+      "- Si participa en un sorteo, un concurso o una promoción, los datos proporcionados pueden utilizarse para administrar estos programas.",
+
+      "Recogida y tratamiento de datos no personales",
+      "TripDocs' también recogerá datos de forma que, por sí mismos, no puedan asociarse directamente a una persona concreta. Estos datos no personales pueden ser recogidos, procesados, transferidos y publicados para cualquier propósito. A continuación se presentan algunos ejemplos de los tipos de datos no personales que TripDocs puede recopilar y los fines para los que se procesan:",
+
+      "- Datos como la ocupación, el idioma, el código postal, el identificador único del dispositivo, etc. para comprender mejor el comportamiento de nuestros clientes y mejorar nuestros productos, servicios y publicidad.",
+
+      "- Datos sobre el uso de determinados servicios, incluidas las consultas de búsqueda. Esta información puede utilizarse para aumentar la relevancia de los resultados proporcionados por los servicios ofrecidos.",
+
+      "- Datos sobre cómo utiliza su dispositivo y sus aplicaciones para facilitar a los desarrolladores la mejora de dichas aplicaciones. Si combinamos datos no personales con datos personales, los datos mezclados se tratarán como datos personales mientras se sigan combinando.",
+      
+      "Divulgación a terceros",
+      "De vez en cuando, 'TripDocs' puede proporcionar ciertos datos personales a socios estratégicos que trabajan con nosotros para proporcionar productos y servicios o ayudarnos en nuestras actividades de marketing. Los datos no se compartirán con ningún tercero para sus propios fines de marketing.",
+
+      
+      "Proveedores de servicios",
+      "TripDocs' compartirá datos personales con empresas dedicadas, entre otras actividades, a la prestación de servicios de procesamiento de datos, a la concesión de créditos, a la tramitación de pedidos de clientes, a la presentación de sus productos, a la mejora de los datos de los clientes, a la prestación de servicios a los clientes, a la evaluación del interés de los clientes en los productos y servicios, y a la realización de estudios de clientes o de encuestas de satisfacción de clientes. ",
+
+      "Otros terceros",
+      "Es posible que 'TripDocs' revele datos personales por orden legal, en el marco de un proceso judicial o a petición de una autoridad pública, tanto dentro como fuera de su país de residencia. Asimismo, los datos personales podrán ser publicados si es necesario o conveniente por razones de seguridad nacional, para cumplir con la legislación vigente o por otras razones relevantes de orden público.",
+
+      "Protección de datos personales",
+      "'TripDocs' garantizará la protección de los datos personales mediante la encriptación durante el tráfico y, en el caso de los datos alojados en las instalaciones, mediante medidas de seguridad física. Al utilizar determinados productos, servicios o aplicaciones o al publicar opiniones en foros, chats o redes sociales, el contenido y los datos personales compartidos serán visibles para otros usuarios, que tendrán la posibilidad de leerlos, recopilarlos o utilizarlos. Usted es responsable de los datos personales que distribuya o facilite en estos casos. ",
+      
+      "Integridad y conservación de los datos personales",
+      "'TripDocs' garantizará la exactitud y la calidad de los datos personales se conservarán durante el tiempo necesario para cumplir los fines para los que fueron recogidos, a menos que la ley exija que se conserven durante más tiempo.",
+
+      "Acceso a los datos personales",
+      "Con respecto a los datos personales que poseemos, 'TripDocs' le ofrece acceso a los mismos para cualquier propósito, incluyendo solicitudes de rectificación si son incorrectos o de eliminación si no estamos obligados a conservarlos por ley o por razones comerciales legítimas. Nos reservamos el derecho a no tramitar las solicitudes que sean inapropiadas o vejatorias, que pongan en peligro la privacidad de terceros, que sean impracticables o para las que la legislación local no exija un derecho de acceso. Las solicitudes de acceso, rectificación o supresión pueden enviarse a nuestra dirección Carrer del Rei En Jaume I, 2, 46470 Catarroja, Valencia o a la cuenta de correo electrónico support@visoft.com.",
+
+      "Los niños y la educación",
+      "'TripDocs' es consciente de la necesidad de tomar precauciones adicionales para preservar la privacidad y la seguridad de los menores que utilizan las aplicaciones y de exigir el consentimiento de los padres si son menores de la edad mínima exigida por la ley (en España, 14 años). Si se han recogido datos personales de un menor de 14 años, sin el consentimiento necesario, la información debe ser eliminada lo antes posible.",
+
+      "Servicios de rastreo",
+      "Para proporcionar servicios basados en la localización, 'TripDocs' puede recoger, utilizar y compartir datos de localización precisos, incluyendo la localización geográfica en tiempo real de su ordenador o dispositivo. A menos que nos dé su consentimiento, estos datos de localización se recopilan de forma anónima para que no puedan utilizarse para identificarle personalmente, y se utilizan para proporcionar y mejorar sus productos y servicios basados en la localización.",
+      "Sitios web y servicios de terceros",
+      "Las aplicaciones pueden contener enlaces a sitios web, productos y servicios de terceros. También pueden utilizar u ofrecer productos o servicios de terceros. La recogida de datos por parte de terceros, mediante la introducción de datos sobre ubicaciones geográficas o datos de contacto, se regirá por sus respectivas políticas de privacidad. Le recomendamos que consulte las políticas de privacidad de esos terceros."
+
+    ],
+
+    
+    "Sign_Up":"Registro",
+    "Sign_Up_Email":"Email",
+    "Palceholder_Email":"Introduzca su dirección de correo electrónico",
+    "Sign_Up_Email_HasError":"¡¡Error!! El correo electrónico existe o no cumple los requisitos.",
+    "Sign_Up_Email_HasCorrect":"Dirección de correo electrónico correcta",
+    "Sign_Up_Password":"Contraseña",
+    "Palceholder_Password":"Introduzca su contraseña",
+    "Sign_Up_Password_HasError":"Error. Necesita 8 caracteres como mínimo, 1 mayúscula, 1 minúscula, 1 número y 1 alfanumérico.",
+    "Sign_Up_Password_HasCorrect":"Contraseña correcta",
+    "Sign_Up_Password_Confirm":"Confirmar contraseña",
+    "Palceholder_Password_Confirm":"Confirmar contraseña",
+    "Sign_Up_Password_Confirm_HasError":"¡¡¡Error!!! La contraseña no coincide.",
+    "Sign_Up_Password_Confirm_HasCorrect":"Contraseña correcta",
+    "Sign_Up_Button_Text":"Inscríbete",
+
+    "Login_Screen_Text":"¿No tiene una cuenta?",
+    "Login_Screen_Error":"Inicio de sesión inválido",
+    "Login_Screen_Button_Text":"Entre",
+
+    "Main_Screen_Filter_Title":"Opciones de filtrado de documentos",
+    "Main_Screen_Buscador":"Buscar en TripDocs",
+    "Main_Screen_Cancel":"Cancelar",
+    "Main_Screen_Confirm":"Confirmar",
+    "Main_Screen_UserDialog_Title": "Información del usuario",
+      "Main_Screen_UserDialog_SignOut": "Cerrar la sesión",
+      "Main_Screen_UserDialog_Valencian": "Valenciano",
+      "Main_Screen_UserDialog_English": "Inglés",
+      "Main_Screen_UserDialog_Spanish": "Castellano",
+      "Main_Screen_UserDialog_German": "Aleman",
+      "Main_Screen_UserDialog_French": "Frances",
+
+    "DocViewer_Screen":"Visor de documentos",
+    "DocPreview_Screen":"Vista previa del documento",
+    "DocInput_Screen":"Escáner",
+    "DocColection_Screen":"Colección",
+
+    "Types": [
+      "Todos", "Identidad", "Sanitario", "Transporte", "Alojamiento", "Seguros", "Eventos", "Otros"
+    ],
+    "Types_Put": [
+      "Identidad", "Sanitario", "Transporte", "Alojamiento", "Seguros", "Eventos", "Otros"
+    ],
+
+    "DocRegister_Screen_Title":"Registrar el documento",
+    "DocRegister_Screen_Creating":"Creación de un documento",
+    "DocRegister_Screen_Doc_Name":"Nombre del documento: ",
+    "DocRegister_Screen_Doc_Placeholder":"Introduzca el nombre del documento",
+    "DocRegister_Screen_Profile":"Perfil: ",
+    "DocRegister_Screen_Profile_Placeholder":"Introduzca el propietario del documento",
+    "DocRegister_Screem_Effective_Date": "Fecha de caducidad: ",
+    "DocRegister_Screen_HasError":"¡¡Error!! Nombre inválido.",
+    "DocRegister_Screen_Correct":"Nombre válido",
+    "DocRegister_Screen_Img_Text":"Añada la imagen haciendo clic en el icono.",
+    "DocRegister_Screen_Cancel_Button": "Cancelar",
+    "DocRegister_Screen_Create_Button": "Crear",
+
+    
+    "DocUpRe_Screen_Button":"Documento de actualización",
+    "DocUpRe_Screen_Deleting":"Borrar documento",
+    "DocUpRe_Screen_DeletingConfirmation_Title":"Confirmación",
+    "DocUpRe_Screen_DeletingConfirmation_Text":"¿Estás seguro de que quieres borrar el documento?",
+    "DocUpRe_Screen_DeletingConfirmation_Yes":"Sí",
+    "DocUpRe_Screen_DeletingConfirmation_No":"No",
+    "DocUpRe_Screen_Updating":"Actualización del documento",
+    "DocUpRe_Screen_Doc":"Nombre del documento:",
+    "DocUpRe_Screen_Doc_Placeholder":"Entrar desde el documento",
+    "DocUpRe_Screen_Profile_Doc":"Perfil:",
+    "DocUpRe_Screen_Profile_Doc_Placeholder":"Introduzca el propietario del documento",
+    "DocUpRe_Screen_HasCorrect":"Nombre válido",
+    "DocUpRe_Screen_HasError":"¡¡Error!! Nombre inválido." ,
+    "DocUpRe_Screen_Img_Text":"Actualice la imagen haciendo clic en ella",
+    "DocUpRe_Screen_Update_Button": "Actualización",
+    "DocUpRe_Screen_Delete_Button": "Borrar",
+
+    
+    "Card_Medium_Warning_Title": "Fecha de caducidad",
+    "Card_Medium_Warning_Content": "Este documento ya ha caducado o está a punto de caducar.",
+    "Card_Medium_Document_Name": "Documento: ",
+    "Card_Medium_Date": "Fecha: ",
+    "Card_Medium_Profile": "Perfil: ",
+    "Card_Medium_Collection": "Colección: "
+  }
+}

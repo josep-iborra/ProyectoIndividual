@@ -15,6 +15,7 @@ import Button_Small from '../components/Button_Small';
 import Button_Medium from '../components/Button_Medium';
 import i18n from "i18next";
 
+
 import { useTranslation } from "react-i18next";
 
 
@@ -71,6 +72,8 @@ const Main_Screen = ({ route, navigation: { navigate } }) => {
   const [filteredDocuments, setFilteredDocuments] = useState([]);
   const [filterDialog, setFilterDialog] = useState(false);
 
+  const [selectedLanguage, setSelectedLanguage] = useState();
+
   const [searchQuery, setSearchQuery] = React.useState('');
   const onChangeSearch = (query) => {
     let arr = []
@@ -108,11 +111,11 @@ const Main_Screen = ({ route, navigation: { navigate } }) => {
         }
       }
     }
-    let item = (
+    let Accordion = (
       <View key={i}>
         <Card_Big owner={arrayOwners[i]} docsSameOwner={arrayDocsSameOwner} />
       </View>);
-    listCard_Documents.push(item);
+    listCard_Documents.push(Accordion);
   }
 
   const loading = (
@@ -120,6 +123,14 @@ const Main_Screen = ({ route, navigation: { navigate } }) => {
       <ActivityIndicator animating={true} color="#DEB202" size="large" />
     </View>
   );
+
+  const changeLanguage = (value) => {
+    i18n.
+      changeLanguage(value)
+      .then(() => setCurrentLanguage(value))
+      .catch((error) => console.log(error))
+  }
+
 
 
   const filter = (
@@ -147,46 +158,62 @@ const Main_Screen = ({ route, navigation: { navigate } }) => {
   const [visibleUserInfo, setVisibleUserInfo] = useState(false);
   let valencia = ["Valencia", "https://ih1.redbubble.net/image.341819860.7405/flat,128x128,075,t-pad,128x128,f8f8f8.u8.jpg"]
   let english = ["English", "https://static.wikia.nocookie.net/cyberpunk/images/7/7c/Cyberpunk_2020_UK.png/revision/latest?cb=20191206205307"]
-  const [userInfoDetails, setUserInfoDetails] = useState(valencia)
+  let espanol = ["Castellano", "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/800px-Bandera_de_Espa%C3%B1a.svg.png"]
+  let frances = ["Frances", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/270px-Flag_of_France.svg.png"]
+  let aleman = ["Aleman", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/200px-Flag_of_Germany.svg.png"]
+  const [userInfoDetails, setUserInfoDetails] = useState(valencia);
   const [expanded, setExpanded] = React.useState(false);
 
   const handlePress = () => setExpanded(!expanded);
   const userInfo = (
     <Dialog visible={visibleUserInfo} onDismiss={() => setVisibleUserInfo(false)}>
       <Dialog.Title style={{ alignSelf: "center" }}>{t("Main_Screen_UserDialog_Title")}</Dialog.Title>
+
       <Dialog.Content>
-        <List.Accordion
-          title={userInfoDetails[0]}
-          // left={props => <List.Icon {...props} icon="folder" />}
-          left={props => (
-            <Image style={{ width: 24, height: 24, marginTop: 5 }} source={{ uri: userInfoDetails[1] }} />
-          )}
-          expanded={expanded}
-          style={styles.list}
-          onPress={handlePress}>
-          {userInfoDetails[0] === "Valencia" || userInfoDetails[0] === "Valencian" ? <List.Item
-            title={english[0]}
-            style={styles.list}
-            left={props => <Image style={{ width: 24, height: 24, marginTop: 6 }} source={{ uri: english[1] }} />}
-            onPress={() => {
-              setUserInfoDetails(english)
-              i18n.changeLanguage("en");
-              setCollectionValue("All")
-            }}
-          /> : <List.Item
-            style={styles.list}
-            title={valencia[0]}
-            left={props => <Image style={{ width: 24, height: 24, marginTop: 6 }} source={{ uri: valencia[1] }} />}
-            onPress={() => {
-              setUserInfoDetails(valencia)
-              i18n.changeLanguage("va");
-              setCollectionValue("Tots")
-            }
-            }
-          />}
 
+        <List.Item style={styles.list}
+          title={valencia[0]}
+          left={props => <Image style={{ width: 24, height: 24, marginTop: 6 }} source={{ uri: valencia[1] }} />}
+          onPress={() => {
+            setUserInfoDetails(valencia)
+            i18n.changeLanguage("va");
+            setCollectionValue("Tots")
+          }}></List.Item>
 
-        </List.Accordion>
+        <List.Item style={styles.list}
+          title={english[0]}
+          left={props => <Image style={{ width: 24, height: 24, marginTop: 6 }} source={{ uri: english[1] }} />}
+          onPress={() => {
+            setUserInfoDetails(english)
+            i18n.changeLanguage("en");
+            setCollectionValue("All")
+          }}></List.Item>
+
+        <List.Item style={styles.list}
+          title={espanol[0]}
+          left={props => <Image style={{ width: 24, height: 24, marginTop: 6 }} source={{ uri: espanol[1] }} />}
+          onPress={() => {
+            setUserInfoDetails(espanol)
+            i18n.changeLanguage("es");
+            setCollectionValue("Todos")
+          }}></List.Item>
+        <List.Item style={styles.list}
+          title={frances[0]}
+          left={props => <Image style={{ width: 24, height: 24, marginTop: 6 }} source={{ uri: frances[1] }} />}
+          onPress={() => {
+            setUserInfoDetails(frances)
+            i18n.changeLanguage("fr");
+            setCollectionValue("Tous")
+          }}></List.Item>
+        <List.Item style={styles.list}
+          title={aleman[0]}
+          left={props => <Image style={{ width: 24, height: 24, marginTop: 6 }} source={{ uri: aleman[1] }} />}
+          onPress={() => {
+            setUserInfoDetails(aleman)
+            i18n.changeLanguage("ger");
+            setCollectionValue("Alle")
+          }}></List.Item>
+
 
       </Dialog.Content>
       <Dialog.Actions style={styles.box_doubleButton_Small}>
@@ -215,7 +242,7 @@ const Main_Screen = ({ route, navigation: { navigate } }) => {
           placeholderTextColor="#000"
           onChangeText={onChangeSearch}
           value={searchQuery}
-          style={{ width: Dimensions.get("window").width * 67 / 100, backgroundColor: '#A7CAD9' }}
+          style={{ width: Dimensions.get("window").width * 67 / 100, backgroundColor: '#FFFFFF' }}
           iconColor="#000"
           inputStyle={{ color: "#000", textAlign: "auto" }}
           selectionColor={"#000"}
@@ -262,11 +289,11 @@ export default Main_Screen;
 
 const styles = StyleSheet.create({
   background: {
-    backgroundColor: '#26528C',
+    backgroundColor: '#F7BF00',
     alignSelf: "center"
   },
   button: {
-    backgroundColor: '#F6C602',
+    backgroundColor: '#F7BF00',
     borderColor: '#000000',
     borderWidth: 1,
     borderRadius: 11,
@@ -278,7 +305,7 @@ const styles = StyleSheet.create({
 
   box: {
     flex: 1,
-    backgroundColor: '#26528C',
+    backgroundColor: '#333333',
     height: Dimensions.get("window").height,
     alignItems: "center"
   },
@@ -290,7 +317,7 @@ const styles = StyleSheet.create({
 
   box_tripleButton: {
     flexDirection: "row",
-    backgroundColor: "#26528C",
+    backgroundColor: "#333333",
     borderWidth: 0,
     paddingTop: Dimensions.get("window").height * 1 / 100,
     justifyContent: "space-evenly",

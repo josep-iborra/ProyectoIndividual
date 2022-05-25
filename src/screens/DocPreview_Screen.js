@@ -23,13 +23,13 @@ export default DocPreview_Screen;
 const styles = StyleSheet.create({
     box: {
         flex: 1,
-        backgroundColor: '#26528C',
+        backgroundColor: '#333333',
         height: Dimensions.get("screen").height,
         alignItems: "center"
     },
 
     falseCard: {
-        backgroundColor: '#A7CAD9',
+        backgroundColor: '#8A8A8A',
         borderRadius: 20,
         height: Dimensions.get("screen").height * 81 / 100,
         width: Dimensions.get("screen").width * 90 / 100,

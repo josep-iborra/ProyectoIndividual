@@ -94,6 +94,9 @@
       "Main_Screen_UserDialog_SignOut": "Tancar Sessió",
       "Main_Screen_UserDialog_Valencian": "Valencia",
       "Main_Screen_UserDialog_English": "Angles",
+      "Main_Screen_UserDialog_Spanish": "Espanyol",
+      "Main_Screen_UserDialog_German": "Alema",
+      "Main_Screen_UserDialog_French": "Frances",
 
       "DocViewer_Screen":"Visor Document",
       "DocPreview_Screen":"Vista prèvia document",

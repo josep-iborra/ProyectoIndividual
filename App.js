@@ -1,5 +1,3 @@
-
-
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
@@ -24,6 +22,10 @@ const PilaNavegacio = createNativeStackNavigator();
 
 const valencia = require("./src/lang/va.json");
 const english = require("./src/lang/en.json");
+const german = require("./src/lang/ger.json");
+const castellano = require("./src/lang/es.json");
+const frances = require("./src/lang/fr.json");
+
 
 i18n
   .use(initReactI18next) // passes i18n down to react-i18next
@@ -35,9 +37,13 @@ i18n
     resources: {
       en: english,
       va: valencia,
+      ger: german,
+      es: castellano,
+      fr:frances,
+
     },
-    lng: "va", // if you're using a language detector, do not define the lng option
-    fallbackLng: "va",
+    lng: "en", // if you're using a language detector, do not define the lng option
+    fallbackLng: "en",
 
     interpolation: {
       escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape

@@ -22,7 +22,7 @@ export default Appbar_Common;
 
 const styles = StyleSheet.create({
     background: {
-        backgroundColor: '#26528C',
+        backgroundColor: '#F7BF00',
     },
 
 })

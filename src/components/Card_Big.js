@@ -37,7 +37,7 @@ export default Card_Big;
 
 const styles = StyleSheet.create({
     falseCard: {
-        backgroundColor: '#A7CAD9',
+        backgroundColor: '#7D7D7D',
         borderRadius: 20,
         height: Dimensions.get("window").height * 79 / 100,
         width: Dimensions.get("window").width * 95 / 100,
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
         paddingBottom: Dimensions.get("window").width * 14 / 100,
     },
     box_Headline: {
-        backgroundColor: "#A7CAD9",
+        backgroundColor: "#7D7D7D",
         marginVertical: Dimensions.get("window").height * 1.5 / 100,
         alignSelf: 'center',
         elevation: 0,

@@ -261,13 +261,13 @@ export default SignUp_Screen;
 const styles = StyleSheet.create({
   box: {
     flex: 1,
-    backgroundColor: "#26528C",
+    backgroundColor: "#333333",
     height: Dimensions.get("screen").height,
     alignItems: "center",
     justifyContent: "center",
   },
   box_TextInput: {
-    backgroundColor: "#A7CAD9",
+    backgroundColor: "#8A8A8A",
     borderWidth: 0,
     marginHorizontal: 15,
     marginVertical: 0,
@@ -276,8 +276,8 @@ const styles = StyleSheet.create({
   },
 
   falseCard: {
-    backgroundColor: "#A7CAD9",
-    borderRadius: 20,
+    backgroundColor: "#8A8A8A",
+    borderRadius: 5,
     height: (Dimensions.get("window").height * 55) / 100,
     width: (Dimensions.get("window").width * 90) / 100,
     marginTop: (Dimensions.get("window").height * 2) / 100,

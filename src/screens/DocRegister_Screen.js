@@ -330,13 +330,13 @@ export default DocRegister_Screen;
 const styles = StyleSheet.create({
   box: {
     flex: 1,
-    backgroundColor: "#26528C",
+    backgroundColor: "#333333",
     height: Dimensions.get("window").height,
     alignItems: "center",
   },
 
   falseCard: {
-    backgroundColor: "#A7CAD9",
+    backgroundColor: "#8A8A8A",
     borderRadius: 20,
     height: (Dimensions.get("window").height * 81) / 100,
     width: (Dimensions.get("window").width * 90) / 100,
@@ -344,7 +344,7 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   box_Headline: {
-    backgroundColor: "#A7CAD9",
+    backgroundColor: "#8A8A8A",
     borderWidth: 0,
     marginHorizontal: 15,
     marginVertical: 20,
@@ -353,7 +353,7 @@ const styles = StyleSheet.create({
     elevation: 0,
   },
   box_TextInput: {
-    backgroundColor: "#A7CAD9",
+    backgroundColor: "#8A8A8A",
     borderWidth: 0,
     marginHorizontal: 5,
     marginVertical: 5,
@@ -361,7 +361,7 @@ const styles = StyleSheet.create({
     elevation: 0,
   },
   box_ImportLogo: {
-    backgroundColor: "#A7CAD9",
+    backgroundColor: "#8A8A8A",
     borderWidth: 1,
     borderRadius: 3,
     borderColor: "grey",
@@ -387,7 +387,7 @@ const styles = StyleSheet.create({
   },
   box_doubleButton_Medium: {
     flexDirection: "row",
-    backgroundColor: "#A7CAD9",
+    backgroundColor: "#8A8A8A",
     borderWidth: 0,
     paddingBottom: 20,
     justifyContent: "space-evenly",
@@ -396,7 +396,7 @@ const styles = StyleSheet.create({
 
   box_DatePicker: {
     flexDirection: "row",
-    backgroundColor: "#A7CAD9",
+    backgroundColor: "#8A8A8A",
     marginHorizontal: 5,
     marginVertical: 5,
     elevation: 0,

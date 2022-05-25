@@ -95,6 +95,9 @@
       "Main_Screen_UserDialog_SignOut": "Log Out",
       "Main_Screen_UserDialog_Valencian": "Valencian",
       "Main_Screen_UserDialog_English": "English",
+      "Main_Screen_UserDialog_Spanish": "Spanish",
+      "Main_Screen_UserDialog_German": "German",
+      "Main_Screen_UserDialog_French": "French",
 
     "DocViewer_Screen":"Document Viewer",
     "DocPreview_Screen":"Document preview",

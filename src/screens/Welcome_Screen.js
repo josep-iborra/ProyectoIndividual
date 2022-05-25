@@ -54,7 +54,7 @@ export default Welcome_Screen;
 const styles = StyleSheet.create({
     box: {
         flex: 1,
-        backgroundColor: '#26528C',
+        backgroundColor: '#333333',
         height: Dimensions.get("screen").height,
         alignItems: "stretch"
     },
