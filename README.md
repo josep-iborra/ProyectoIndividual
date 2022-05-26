@@ -1,8 +1,8 @@
 # Projecte_Integrat_2DAM
-![Logo Trip Docs](/../enrique/src/assets/Logo.png)
+![Logo Trip Docs](./src/assets/Logo.png)
 # Trip Docs
 ## *All Documents at Hand*
-### Un proyecto desarrollado por **Visoft** (Florida-Universitaria)
+### Mejora del proyecto Trip Docs desarrollado por un miembro de **Visoft** (Florida-Universitaria)
 ![QR](/../master/assets/qr.png)
 ----
 
@@ -11,20 +11,17 @@
 | Membres        | Email           | Avatar  |
 | ------------- |:-------------:| :-----:|
 | Josep Iborra Pons     | josersillero@gmail.com | <img src="https://avatars.githubusercontent.com/u/57388708?v=4" alt="Josep" width="100" height="100"/> |
-| Ximo Quintana Ferrer     | xquintanaf.denia@gmail.com | <img src="https://avatars.githubusercontent.com/u/90713625?v=4" alt="Ximo" width="100" height="100"/> |
-| Enrique Izquierdo Jiménez     | enrique.izquierdo@gmail.com | <img src="https://avatars.githubusercontent.com/u/73492386?v=4" alt="Enrique" width="100" height="100"/> |
-| Pablo González Sánchez     | pablogonsan2001@gmail.com | <img src="https://avatars.githubusercontent.com/u/73492474?v=4" alt="Pablo" width="100" height="100"/> |
-| Manuel Bas Sáez     | mabasa03@floridauniversitaria.es | <img src="https://avatars.githubusercontent.com/u/57366240?v=4" alt="Manuel" width="100" height="100"/> |
 
 
 ### 2.	Descripción del proyecto
 
 App destinada a viajeros, que dispone de una serie de funcionalidades que facilitan la gestión de la documentación requerida en los viajes.
+Y se ha hecho una mejora donde se añaden mas idiomas y una estetica nueva a la aplicación para que se mas atractiva para el publico.
 
 
 ### 3.	Objetivo del proyecto
 
-Facilitar a los usuarios una aplicación especializada en la documentación requerida en los viajes, que facilite a los usuarios la gestión, utilización y conservación de la misma mediante una serie de funcionalidades que garanticen la facilidad de uso, y la imposibilidad de acceso por terceras personas a dicha documentación.
+Hacer una mejora a la aplicacion ya creada de tripdocs.
 
  
 ### 4.	Justificación del proyecto
@@ -79,7 +76,7 @@ Las principales funcionalidades implementadas en la aplicación son:
 -	Visualización de la imagen del documento al presionar sobre la terjeta seleccionada.
 - Alertas por proximidad de la fecha de interes (caducidad, utilización, etc.) establecida al registrar el documento.
 - Posibilidad de actualización de los documentos previamente registrados.
-- Multiidioma (inglés, valenciano).
+- Multiidioma (inglés, valenciano, castellano, frances, aleman).
 
  
 ### 6.	Medios técnicos utilizados: tecnologías, lenguajes y estrategias de programación
@@ -121,4 +118,4 @@ Marketing
 
 La aplicación se publicitara mediante servicios como google ads o Facebook ads, ya que la precisión a la hora de buscar potenciales clientes permitirá mostrar el anuncio únicamente a personas interesadas en viajar, o que viajen habitualmente. También se podrá promocionar mediante colaboraciones pagadas con influencers dedicados al nicho de los viajes, consiguiendo así llegar a potenciales usuarios de nuestros servicios de forma directa.
 
-![Logo Trip Docs small](/../enrique/src/assets/logoPequenyoColorInvertido.png)
+![Logo Trip Docs small](./src/assets/LogoPequeño.png)
