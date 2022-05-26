@@ -1,17 +1,7 @@
 import React, { useState } from "react";
 import { Dimensions, ScrollView, StyleSheet, View, Image, TouchableOpacity } from "react-native";
 import {
-  HelperText,
-  IconButton,
-  Provider,
-  Surface,
-  Text,
-  TextInput,
-  Caption,
-  List,
-  Portal,
-  Dialog,
-  ActivityIndicator,
+  HelperText, IconButton, Provider, Surface, Text, TextInput, Caption, List, Portal, Dialog, ActivityIndicator,
 } from "react-native-paper";
 import { api } from "../utils/Api";
 import { authentication } from "../utils/Authentication";

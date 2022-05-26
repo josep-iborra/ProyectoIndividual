@@ -3,7 +3,7 @@ import {
   Dimensions, StyleSheet, View, KeyboardAvoidingView, Text
 } from "react-native";
 import {
-  Provider, Surface, TextInput, HelperText, Portal, Dialog, ActivityIndicator, Checkbox
+  Provider, Surface, TextInput, HelperText, Checkbox
 } from "react-native-paper";
 import { api } from "../utils/Api";
 import Appbar_Common from "../components/Appbar_Common";

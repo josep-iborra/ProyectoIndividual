@@ -21,7 +21,6 @@ const LogIn_Screen = ({ navigation }) => {
       })
       .then((response) => {
         navigation.navigate("Main_Screen");
-        // console.log(response.data);
         authentication.id = response.data;
         authentication.authenticated = true;
       })

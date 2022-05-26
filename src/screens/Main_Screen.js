@@ -156,11 +156,11 @@ const Main_Screen = ({ route, navigation: { navigate } }) => {
   )
 
   const [visibleUserInfo, setVisibleUserInfo] = useState(false);
-  let valencia = ["Valencia", "https://ih1.redbubble.net/image.341819860.7405/flat,128x128,075,t-pad,128x128,f8f8f8.u8.jpg"]
-  let english = ["English", "https://static.wikia.nocookie.net/cyberpunk/images/7/7c/Cyberpunk_2020_UK.png/revision/latest?cb=20191206205307"]
-  let espanol = ["Castellano", "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/800px-Bandera_de_Espa%C3%B1a.svg.png"]
-  let frances = ["Frances", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/270px-Flag_of_France.svg.png"]
-  let aleman = ["Aleman", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/200px-Flag_of_Germany.svg.png"]
+  let valencia = [t("Main_Screen_UserDialog_Valencian"), "https://ih1.redbubble.net/image.341819860.7405/flat,128x128,075,t-pad,128x128,f8f8f8.u8.jpg"]
+  let english = [t("Main_Screen_UserDialog_English"), "https://static.wikia.nocookie.net/cyberpunk/images/7/7c/Cyberpunk_2020_UK.png/revision/latest?cb=20191206205307"]
+  let espanol = [t("Main_Screen_UserDialog_Spanish"), "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/800px-Bandera_de_Espa%C3%B1a.svg.png"]
+  let frances = [t("Main_Screen_UserDialog_French"), "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/270px-Flag_of_France.svg.png"]
+  let aleman = [t("Main_Screen_UserDialog_German"), "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/200px-Flag_of_Germany.svg.png"]
   const [userInfoDetails, setUserInfoDetails] = useState(valencia);
   const [expanded, setExpanded] = React.useState(false);
 

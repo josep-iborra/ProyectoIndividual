@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dimensions, StyleSheet, View } from 'react-native';
-import { Provider,} from 'react-native-paper';
+import { Provider, } from 'react-native-paper';
 import Appbar_Common from '../components/Appbar_Common';
 import { useTranslation } from "react-i18next";
 
@@ -11,7 +11,6 @@ const DocPreview_Screen = ({ navigation }) => {
             <Appbar_Common OnPress={() => navigation.navigate("Main_Screen")} titulo={t("DocPreview_Screen")} />
             <View style={styles.box}>
                 <Surface style={styles.falseCard}>
-
                 </Surface>
             </View>
         </Provider>

@@ -8,7 +8,7 @@ const DocInput_Screen = ({ navigation }) => {
     const { t } = useTranslation();
     return (
         <Provider>
-            <Appbar_Common OnPress={() => navigation.navigate("Main_Screen")} titulo={t("DocInput_Screen")}/>
+            <Appbar_Common OnPress={() => navigation.navigate("Main_Screen")} titulo={t("DocInput_Screen")} />
             <View style={styles.box}>
                 <Surface style={styles.falseCard}>
                 </Surface>

@@ -65,11 +65,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
     },
 
-    image: {
-        // maxHeight: Dimensions.get("window").width * 60 / 100,
-        // maxWidth: Dimensions.get("window").width * 80 / 100,
-
-    },
 
     description: {
         flex: 5,

@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
         alignItems: "center"
     },
     falseCard: {
-        backgroundColor: '#A7CAD9',
+        backgroundColor: '#FFFFFF',
         borderRadius: 20,
         height: Dimensions.get("screen").height * 81 / 100,
         width: Dimensions.get("screen").width * 90 / 100,
