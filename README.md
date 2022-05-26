@@ -3,7 +3,7 @@
 # Trip Docs
 ## *All Documents at Hand*
 ### Mejora del proyecto Trip Docs desarrollado por un miembro de **Visoft** (Florida-Universitaria)
-![QR](/../master/assets/qr.png)
+![QR](/../master/assets/Qr-Tripdocs.png)
 ----
 
 ### 1.	Integrantes de equipo de desarrollo
@@ -96,7 +96,7 @@ La estrategia de programación planteada para poder gestionar los documentos gua
 
 Viabilidad económica
 
-La aplicación ha necesitado de 5 programadores, trabajando 8 horas diarias durante 14 días a 15€ la hora el coste total de la aplicación en caso de venta será de 8400€. El coste de mantenimiento de la aplicación partiría de los 10€ al mes en mantener el servidor, aumentando este a medida que más usuarios utilicen nuestros servicios.
+La mejora ha necesitado de 1 programadores, trabajando 8 horas diarias durante 14 días a 20€ la hora el coste total de la aplicación en caso de venta será de 8000€. El coste de mantenimiento de la aplicación partiría de los 10€ al mes en mantener el servidor, aumentando este a medida que más usuarios utilicen nuestros servicios.
 
 
 Viabilidad humana
