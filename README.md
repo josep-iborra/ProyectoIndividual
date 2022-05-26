@@ -1,4 +1,4 @@
-# Projecte_Integrat_2DAM
+# Mejora_Projecte_Integrat_2DAM
 ![Logo Trip Docs](./src/assets/Logo.png)
 # Trip Docs
 ## *All Documents at Hand*
