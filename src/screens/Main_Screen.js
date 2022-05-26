@@ -218,7 +218,6 @@ const Main_Screen = ({ route, navigation: { navigate } }) => {
       </Dialog.Content>
       <Dialog.Actions style={styles.box_doubleButton_Small}>
         <Button_Medium title={t("Main_Screen_UserDialog_SignOut")} onPress={() => navigate("LogIn_Screen")} description={t("Main_Screen_UserDialog_SignOut")} />
-        {/* <Button_Small title={t("Main_Screen_Confirm")} onPress={() => setFilterDialog(false)} description={t("Main_Screen_Confirm")} /> */}
       </Dialog.Actions>
     </Dialog>
   )
@@ -265,8 +264,7 @@ const Main_Screen = ({ route, navigation: { navigate } }) => {
             showsHorizontalScrollIndicator={false}
             scrollEventThrottle={200}
             decelerationRate="fast"
-            pagingEnabled
-          >
+            pagingEnabled>
             {isLoading ? loading : listCard_Documents}
           </ScrollView>
         </View>
